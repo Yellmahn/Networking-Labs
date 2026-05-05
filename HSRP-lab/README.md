@@ -5,6 +5,7 @@ This lab demonstrates the configuration and behavior of Hot Standby Router Proto
 
 ---
 ![Network Topology](./Screenshot 2026-05-05 132513.png) 
+
 ---
 
 ## 🧱 Topology
