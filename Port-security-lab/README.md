@@ -5,7 +5,7 @@ This lab demonstrates the configuration of switch port security to restrict unau
 
 ---
 
-## 🧱 Topology
+## 🧱 Topology![](Topology.png)
 - 1 Access Switch (Switch1)
 - Multiple end devices (Laptops, PC, IP Phone)
 - One intermediate switch/hub for shared connections
