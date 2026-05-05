@@ -3,7 +3,7 @@
 ## 📌 Overview
 This lab demonstrates the configuration and behavior of Hot Standby Router Protocol (HSRP) to provide gateway redundancy in a small network. The objective is to ensure continuous connectivity for end devices even if one router fails.
 
-![Network Topology](./Screenshot 2026-05-05 132513.png) 
+![HSRP Topology](Topology.png)
 
 ## 🧱 Topology
 - 3 Routers (R1, R2, R3)
