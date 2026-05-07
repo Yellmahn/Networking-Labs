@@ -19,6 +19,38 @@ This lab demonstrates the basic configuration of OSPF (Open Shortest Path First)
 
 ---
 
+## 🌐 IP Addressing
+
+### R1
+| Interface | IP Address |
+|---|---|
+| G0/0/0 | 172.16.1.17/28 |
+| S0/1/0 | 192.168.10.1/30 |
+| S0/1/1 | 192.168.10.5/30 |
+
+### R2
+| Interface | IP Address |
+|---|---|
+| G0/1 | 10.10.10.1/24 |
+| S0/1/0 | 192.168.10.2/30 |
+| S0/1/1 | 192.168.10.9/30 |
+
+### R3
+| Interface | IP Address |
+|---|---|
+| G0/0/0 | 172.16.1.33/29 |
+| S0/1/0 | 192.168.10.6/30 |
+| S0/1/1 | 192.168.10.10/30 |
+
+---
+
+## ⚙️ Technologies Used
+- Cisco Packet Tracer
+- OSPF Dynamic Routing
+- Cisco IOS CLI
+
+---
+
 ## ⚙️ Configuration Summary
 - Configured IP addressing on all router interfaces
 - Enabled OSPF routing process
@@ -27,3 +59,11 @@ This lab demonstrates the basic configuration of OSPF (Open Shortest Path First)
 - Tested routing connectivity between all LANs
 
 ---
+
+## 🔍 Verification Commands
+
+```bash
+show ip ospf neighbor
+show ip route
+show ip protocols
+show ip interface brief
