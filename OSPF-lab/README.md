@@ -31,7 +31,7 @@ This lab demonstrates the basic configuration of OSPF (Open Shortest Path First)
 ### R2
 | Interface | IP Address |
 |---|---|
-| G0/1 | 10.10.10.1/24 |
+| G0/0/1 | 10.10.10.1/24 |
 | S0/1/0 | 192.168.10.2/30 |
 | S0/1/1 | 192.168.10.9/30 |
 
